@@ -4,4 +4,4 @@ const findAllUsers = async(req, res, next) => {
     next();
 }
 
-module.exports = findAllUsers
+module.exports = findAllUsers;

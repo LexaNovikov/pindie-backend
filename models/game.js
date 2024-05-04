@@ -23,7 +23,7 @@ const gameSchema = new mongoose.Schema({
     required: true
   },
   users: [{
-    type: mongoose.Schema.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: userModel,
   }],
   categories: [{
